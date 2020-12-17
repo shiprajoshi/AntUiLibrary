@@ -1,0 +1,14 @@
+:root {
+  --colNum: 11;
+}
+.gridContainer {
+  width: 70%;
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: repeat(var(--colNum), auto);
+
+  .gridItem {
+    height: 25px;
+    width: 25px;
+  }
+}
