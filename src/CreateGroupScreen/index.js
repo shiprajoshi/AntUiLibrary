@@ -38,13 +38,13 @@ CreateGroup.propTypes = {
   title: PropTypes.string,
   newButton: PropTypes.string,
   inputTitle: PropTypes.string,
-  okText: PropTypes.string
+  okText: PropTypes.func
 };
 
 CreateGroup.defaultProps = {
   title: "",
   newButton: "",
   inputTitle: "",
-  okText: ""
+  okText: () => {}
 };
 export default CreateGroup;
